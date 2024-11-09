@@ -1,3 +1,7 @@
+Create the SOCKS5 Proxy Tunnel:
+
+
+
 ssh -D 1080 -f -C -q -N username@remote-server-ip
 
 
@@ -10,3 +14,23 @@ Explanation of the flags:
 -q: Reduces the verbosity of SSH output.
 -N: Tells SSH not to execute any commands, just establish the tunnel.
 
+
+
+
+
+
+Configure your application or system to use the SOCKS5 proxy: 
+
+Now that you’ve created the tunnel, you need to configure the application (e.g., browser, terminal, etc.) to use the SOCKS5 proxy at localhost:1080.
+
+
+
+
+
+
+
+Verify the Connection: 
+
+You can verify that the proxy is working by checking your IP address via websites like https://www.whatismyip.com or by using curl:
+
+curl --proxy socks5h://localhost:1080 https://httpbin.org/ip
