@@ -1,0 +1,3 @@
+SOCKS5 is the most recently optimized version of SOCKS, an internet protocol that tunnels web traffic through a remote server. 
+The SOCKS5 protocol builds upon previous versions of the SOCKS proxy protocol to offer advanced security through multiple authentication methods. 
+This means that only authorized users can access SOCKS5 proxy servers.
