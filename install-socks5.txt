@@ -1,0 +1,12 @@
+ssh -D 1080 -f -C -q -N username@remote-server-ip
+
+
+
+Explanation of the flags:
+
+-D 1080: Tells SSH to set up a SOCKS5 proxy on port 1080 on your local machine.
+-f: Tells SSH to run in the background.
+-C: Compresses data during transmission (optional but can help speed up the connection).
+-q: Reduces the verbosity of SSH output.
+-N: Tells SSH not to execute any commands, just establish the tunnel.
+
