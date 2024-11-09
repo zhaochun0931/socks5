@@ -1,3 +1,10 @@
+SSH should be installed on both the client (your Ubuntu machine) and the remote server.
+
+
+
+
+
+
 Create the SOCKS5 Proxy Tunnel:
 
 
