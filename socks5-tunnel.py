@@ -1,3 +1,8 @@
+# pip install paramiko pysocks
+
+
+
+
 import paramiko
 import threading
 import socket
